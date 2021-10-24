@@ -6,15 +6,143 @@
           welcome.innerHTML = 'Hello! 123' + prompt('Input your name') + '!';
       };
     </script> -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+      body {
+        background-image: url('pic_trulli.jpg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        /* background-size: cover; */
+      }
+      </style> -->
+      <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td{
+        text-align: center;
+      }
+      
+
+
+
+
+tr:hover {background-color: #D6EEEE;}
+</style>
+<style>
+  ul {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 16;
+    overflow: hidden;
+    /* background-color: blue; */
+  }
+  
+  li {
+    /* color: white; */
+    /* float: left; */
+  }
+  
+  li a {
+    /* display: block; */
+    color: yellow;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  #abc{
+    color: white;
+  }
+  /* li a:hover {
+    background-color: #111111;
+  } */
+  </style>
+
+
   </head>
   <body>
+    <ul>
+      <li id="abc">Coffee</li>
+      <li>Tea
+        <ul>
+          <li><a href="https://www.google.com">123</a></li>
+          <li>Green tea</li>
+        </ul>
+      </li>
+      <li id="abc">Milk</li>
+    </ul>
+    <table>
+      <colgroup>
+        <col span="1" style="background-color: #D6EEEE">
+    <col span="1" style="background-color: pink">
+    <col span="1" style="background-color: red">
+    <col span="1" style="background-color: plum">
+
+
+      </colgroup>
+      <caption id="abc">Names</caption>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td >Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td >Germany</td>
+        
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Jill Smith</td>
+      </tr>
+      <tr>
+        <th 
+    rowspan="2"
+    >Phone</th>
+        <td>555-77854</td>
+      </tr>
+      <tr>
+        <td>555-77854</td>
+      </tr>
+    </table>
+
     <span id="welcome"></span>
+    
     <ins><i>
       <b>
       <p style="color:darkblue;font-family:verdana;font-size: 200%;text-align:center;">4<sub>5</sub><sup>6</sup></p>
     </b>
     </i></ins>
-    
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" alt="Italian Trulli"  usemap="#workmap">
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" onclick="myFunction()">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+      <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    <script>
+      function myFunction() {
+        alert("You clicked the coffee cup!");
+      }
+      </script>
+    <a href="#C4">Jump to Chapter 4</a>
+    <a href="https://www.google.com.tw/"target="_blank">123123</a>
+    <a href="mailto:someone@example.com">Send email</a>
+    <h2 style="color: slateblue;">123</h2>
+    <h2 style="color:crimson;">123</h2>
+    <h2>123</h2>
+    <button title="for test" onclick="location.href='https://www.google.com.tw/'">HTML Tutorial</button>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    <h2 id="C4">Chapter 4</h2>
     <small>
       <del><strong>
         <em>
